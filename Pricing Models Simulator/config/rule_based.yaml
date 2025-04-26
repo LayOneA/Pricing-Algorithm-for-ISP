@@ -1,0 +1,11 @@
+rule_based:
+  price_levels:
+    low: 5.0
+    medium: 8.0
+    high: 12.0
+
+  thresholds:
+    upgrade: 0.65
+    downgrade: 0.35
+
+  initial_level: "medium"

@@ -1,0 +1,19 @@
+user_types:
+  Light:
+    price_threshold: 4.0
+    price_elasticity: 1.8
+    usage_high: 5.0
+
+  Medium:
+    price_threshold: 6.5
+    price_elasticity: 1.2
+    usage_high: 8.0
+
+  Heavy:
+    price_threshold: 9.0
+    price_elasticity: 0.8
+    usage_high: 15.0
+
+network:
+  base_price: 5.0
+  capacity: 3000
