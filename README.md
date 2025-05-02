@@ -54,19 +54,32 @@ Pricing-Models-Simulator
 
 ​**Note:​**​ The `Original Code` folder contains pre-integration implementations preserved for historical reference, but is not part of the current operational codebase.
 
-## Project Execution
-
-### Simulator Execution
-1. Navigate to the `src` directory and run `_3_network_simulator.py`:
+## Simulator Execution
+Navigate to the `src` directory and run `_3_network_simulator.py`:
 ```bash
 cd src
 python _3_network_simulator.py
 ```
 
+## Execution Results
+After running the project, generated visualizations will be saved in the `src` folder:
+```bash
+└─src
+   ├─q_learning_performance.png
+   ├─rule_based_performance.png
+   ├─static_performance.png
+   ├─strategy_comparison.png
+   └─ ....... # other code files
+```
+Key visualizations:
+- `strategy_comparison.png`: Comparative analysis of model performance metrics
+- `*_performance.png` files: Training process recordings for each algorithm
+**Sample Training Visualization**​  
+
+## Frontend Execution
 To modify simulation parameters: You need adjust yaml files in the config directory files. Alternatively, use our ​visual frontend​ for simplified parameter tuning (see below)
 
-### Frontend Execution
-1. Navigate to the `src` directory and launch the dashboard:
+Navigate to the `src` directory and launch the dashboard:
 ```bash
 cd src
 streamlit run _4_dashboard.py
