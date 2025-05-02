@@ -38,7 +38,7 @@ Pricing-Models-Simulator
 │ └─user_types.yaml                  # User type parameters
 ├─data
 │ └─trained_model
-│ └─q_table.pkl                      # Q-learning model trainning results
+│   └─q_table.pkl                    # Q-learning model trainning results
 ├─src
 │ ├─_1_user_behavior.py              # User behavior functions (data usage & satisfaction calculations)
 │ ├─_2_Q_learning.py                 # Q-learning pricing model
@@ -51,13 +51,3 @@ Pricing-Models-Simulator
 ```
 
 ​**Note:​**​ The `Original Code` folder contains pre-integration implementations preserved for historical reference, but is not part of the current operational codebase.
-
-### Key Modules Explanation
-- ​**Configurations**: YAML files defining model parameters and user types
-- ​**Core Models**​ (`src/`):
-  - Numbered modules implement pipeline stages (`1_user...` → `4_result...`)
-  - Q-learning & Rule-based models implement different pricing strategies
-- ​**Simulation**:
-  - `network_simulator.py` handles model training/comparison
-  - `dashboard.py` provides visualization interface
-- ​**Data**: Persisted Q-learning tables and simulation outputs
