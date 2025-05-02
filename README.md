@@ -76,6 +76,7 @@ Key visualizations:
 - `*_performance.png` files: Training process recordings for each algorithm
   
 **Sample Training Visualization**​  
+![3 models testing result](./src/strategy_comparison.png)  
 
 ## Frontend Execution
 To modify simulation parameters: You need adjust yaml files in the config directory files. Alternatively, use our ​visual frontend​ for simplified parameter tuning (see below)
