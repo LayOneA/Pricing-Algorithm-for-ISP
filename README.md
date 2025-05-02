@@ -51,3 +51,13 @@ Pricing-Models-Simulator
 ```
 
 ​**Note:​**​ The `Original Code` folder contains pre-integration implementations preserved for historical reference, but is not part of the current operational codebase.
+
+### Key Modules Explanation
+- ​**Configurations**: YAML files defining model parameters and user types
+- ​**Core Models**​ (`src/`):
+  - Numbered modules implement pipeline stages (`1_user...` → `4_result...`)
+  - Q-learning & Rule-based models implement different pricing strategies
+- ​**Simulation**:
+  - `network_simulator.py` handles model training/comparison
+  - `dashboard.py` provides visualization interface
+- ​**Data**: Persisted Q-learning tables and simulation outputs
