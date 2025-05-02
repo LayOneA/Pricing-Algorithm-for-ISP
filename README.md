@@ -28,6 +28,8 @@ To simplify the project simulation process, we assume the following conditions:
 
 ## Code Structure
 The project directory is organized as follows:
+
+```bash
 Pricing-Models-Simulator
 ├─config
 │ ├─q_learning.yaml # Q-learning hyperparameters
@@ -46,5 +48,6 @@ Pricing-Models-Simulator
 │ ├─_4_dashboard.py # Frontend implementation
 │ └─_4_result.py # Result analysis
 └─Original Code # (Archived pre-integration implementations - for documentation purposes only)
+```
 
 ​**Note:​**​ The `Original Code` folder contains pre-integration implementations preserved for historical reference, but is not part of the current operational codebase.
