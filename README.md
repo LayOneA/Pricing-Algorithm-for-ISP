@@ -74,6 +74,7 @@ After running the project, generated visualizations will be saved in the `src` f
 Key visualizations:
 - `strategy_comparison.png`: Comparative analysis of model performance metrics
 - `*_performance.png` files: Training process recordings for each algorithm
+  
 **Sample Training Visualization**​  
 
 ## Frontend Execution
