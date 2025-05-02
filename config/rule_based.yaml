@@ -1,0 +1,6 @@
+rule_based:
+  initial_price: 6.0
+  target_congestion: 0.5
+  price_adjustment_factor: 0.5
+  min_price: 2.0
+  max_price: 15.0
