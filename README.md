@@ -53,3 +53,21 @@ Pricing-Models-Simulator
 ```
 
 ​**Note:​**​ The `Original Code` folder contains pre-integration implementations preserved for historical reference, but is not part of the current operational codebase.
+
+## Project Execution
+
+### Simulator Execution
+1. Navigate to the `src` directory and run `_3_network_simulator.py`:
+```bash
+cd src
+python _3_network_simulator.py
+```
+
+To modify simulation parameters: You need adjust yaml files in the config directory files. Alternatively, use our ​visual frontend​ for simplified parameter tuning (see below)
+
+### Frontend Execution
+1. Navigate to the `src` directory and launch the dashboard:
+```bash
+cd src
+streamlit run _4_dashboard.py
+```
