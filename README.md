@@ -113,32 +113,11 @@ streamlit run _4_dashboard.py
 ## Code Contributions
 The project adopts a modular development approach with clear division of responsibilities:
 
-### Implementation Mapping
-| File Prefix | Contributor       | Key Contributions |
-|-------------|-------------------|-------------------|
-| `_1_*`      | JIANG Tianyi      | User type definitions (heavy/moderate/light users) |
-| `_2_*`      | YANG Jiahao       | Q-learning pricing core algorithm <br> Static pricing implementation <br> User satisfaction & data usage functions |
-| `_3_*`      | LIANG Xinyu       | Network simulator architecture <br> Rule-based pricing strategy |
-| `_4_*`      | CAO Xiaohui       | Visualization dashboard development <br> System integration & final polishing |
+| Code Prefix | Contributor       | Key Responsibilities |
+|-------------|-------------------|----------------------|
+| `_1_*`      | JIANG Tianyi      | Defined heavy/moderate/light user classes |
+| `_2_*`      | YANG Jiahao       | Implemented Q-learning & static pricing strategies<br>Integrated user behavior module & network simulator module <br>Developed satisfaction & Data usage functions |
+| `_3_*`      | LIANG Xinyu       | Built network simulator<br>Implemented rule-based pricing strategy |
+| `_4_*`      | CAO Xiaohui       | Developed visualization dashboard<br>Finalized system integration |
 
-### Detailed Breakdown
-1. ​**JIANG Tianyi**​  
-   - Established user archetype parameters
-   - Defined tiered demand thresholds (min/max data requirements)
-
-2. ​**YANG Jiahao**​  
-   - Implemented Q-learning reward mechanisms
-   - Developed price elasticity models
-   - Integrated user behavior modules
-
-3. ​**LIANG Xinyu**​  
-   - Built real-time congestion simulation engine
-   - Designed traffic prediction heuristics
-   - Implemented peak-time pricing rules
-
-4. ​**CAO Xiaohui**​  
-   - Created interactive parameter controls
-   - Developed performance metric visualizations
-   - Conducted cross-module testing
-
-​**Special recognition to all team members for their dedicated collaboration!​**​ 
+​**We sincerely appreciate all team members' dedicated contributions!​**​ ❤️
