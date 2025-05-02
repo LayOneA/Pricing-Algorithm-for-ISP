@@ -32,22 +32,22 @@ The project directory is organized as follows:
 ```bash
 Pricing-Models-Simulator
 ├─config
-│ ├─q_learning.yaml                                            # Q-learning hyperparameters
-│ ├─rule_based.yaml                                            # Rule-based pricing parameters
-│ ├─static_pricing.yaml                                        # Static pricing parameters
-│ └─user_types.yaml                                            # User type parameters
+│ ├─q_learning.yaml                                   # Q-learning hyperparameters
+│ ├─rule_based.yaml                                   # Rule-based pricing parameters
+│ ├─static_pricing.yaml                               # Static pricing parameters
+│ └─user_types.yaml                                   # User type parameters
 ├─data
 │ └─trained_model
-│ └─q_table.pkl                                                # Q-learning model trainning results
+│ └─q_table.pkl                                       # Q-learning model trainning results
 ├─src
-│ ├─_1_user_behavior.py                                        # User behavior functions (data usage & satisfaction calculations)
-│ ├─_2_Q_learning.py                                           # Q-learning pricing model
-│ ├─_2_static_pricing.py                                       # Static pricing model
-│ ├─_3_rule_based.py                                           # Rule-based pricing model
-│ ├─_3_network_simulator.py                                    # Simulator for Q-learning training & model comparison
-│ ├─_4_dashboard.py                                            # Frontend implementation
-│ └─_4_result.py                                               # Result analysis
-└─Original Code                                                # (Archived pre-integration implementations - for documentation purposes only)
+│ ├─_1_user_behavior.py                               # User behavior functions (data usage & satisfaction calculations)
+│ ├─_2_Q_learning.py                                  # Q-learning pricing model
+│ ├─_2_static_pricing.py                              # Static pricing model
+│ ├─_3_rule_based.py                                  # Rule-based pricing model
+│ ├─_3_network_simulator.py                           # Simulator for Q-learning training & model comparison
+│ ├─_4_dashboard.py                                   # Frontend implementation
+│ └─_4_result.py                                      # Result analysis
+└─Original Code                                       # (Archived pre-integration implementations - for documentation purposes only)
 ```
 
 ​**Note:​**​ The `Original Code` folder contains pre-integration implementations preserved for historical reference, but is not part of the current operational codebase.
