@@ -15,7 +15,7 @@ In response to the prevalent network congestion issues during peak hours (e.g., 
 To simplify the project simulation process, we assume the following conditions:
 1. Users are categorized into light, moderate, and heavy usage groups based on network consumption patterns. For example:
    - Light users: Basic communication needs (e.g., WeChat)
-   - Moderate users: Video streaming needs (e.g., movies)
+   - Moderate users: Video streaming needs (e.g., BiliBili)
    - Heavy users: Gaming needs (e.g., FPS games)
 
 2. Each user category possesses the following attributes (using heavy users as an example):
