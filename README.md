@@ -78,6 +78,29 @@ Key visualizations:
 **Sample Training Visualization**​  
 ![3 models testing result](./src/strategy_comparison.png)  
 
+### Brief explanation
+Through this simulation, we aimed to regulate network congestion rates towards the target level (0.5). Our observations include:
+
+1. ​**Congestion Target Achievement**​ (Primary Metric)  
+   - Q-learning pricing: Fluctuates around 0.5 congestion rate
+   - Rule-based pricing: Approaches but fails to consistently reach 0.5
+   - Static pricing: Remains fixed with no fluctuation (predefined pricing)
+
+2. ​**Average User Satisfaction**​ (Secondary Metric)  
+   - Q-learning achieves the highest satisfaction post-convergence
+   - Rule-based shows moderate satisfaction levels
+   - Static pricing yields the lowest satisfaction
+
+3. ​**ISP Revenue Considerations**​  
+   - Current evaluation lacks penalty mechanisms for exceeding congestion thresholds
+   - Requires further refinement in revenue modeling
+
+4. ​**Pricing Dynamics**​  
+   Reveals the underlying relationship between:  
+   - Price adjustments ➔ Congestion rate changes  
+   - Price thresholds ➔ User satisfaction shifts  
+   Highlights the critical need for balanced pricing strategies
+
 ## Frontend Execution
 To modify simulation parameters: You need adjust yaml files in the config directory files. Alternatively, use our ​visual frontend​ for simplified parameter tuning (see below)
 
