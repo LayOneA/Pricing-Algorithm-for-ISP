@@ -102,7 +102,7 @@ Through this simulation, we aimed to regulate network congestion rates towards t
    Highlights the critical need for balanced pricing strategies
 
 ## Frontend Execution
-To modify simulation parameters: You need adjust yaml files in the config directory files. Alternatively, use our ​visual frontend​ for simplified parameter tuning (see below)
+To modify simulation parameters: You need adjust yaml files in the config directory files. Alternatively, use our ​visual frontend​ for simplified parameter tuning (see below).
 
 Navigate to the `src` directory and launch the dashboard:
 ```bash
