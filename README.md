@@ -5,7 +5,7 @@ This is the code repository for the final project of The Chinese University of H
 
 In response to the prevalent network congestion issues during peak hours (e.g., 10 PM to 1 AM) in campus networks, our team has proposed several simple Internet Service Provider (ISP) pricing algorithm strategies aimed at reducing network congestion ratio during specific time periods. These strategies include both dynamic pricing algorithms and static pricing algorithms. 
 
-The specific implementation details of the three methods are included in our final report (the report will be uploaded to this repository around May 11th).
+The specific implementation details of the three methods are included in our report.
 
 ## Team Members
 1. LIANG Xinyu(梁馨予)   ID:121010060 (Project Leader)
