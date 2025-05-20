@@ -98,7 +98,8 @@ Through this simulation, we aimed to regulate network congestion rates towards t
 4. ​**Pricing Dynamics**​  
    Reveals the underlying relationship between:  
    - Price adjustments ➔ Congestion rate changes  
-   - Price thresholds ➔ User satisfaction shifts  
+   - Price thresholds ➔ User satisfaction shifts
+   
    Highlights the critical need for balanced pricing strategies
 
 ## Frontend Execution
