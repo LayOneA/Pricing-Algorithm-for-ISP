@@ -78,7 +78,7 @@ Key visualizations:
 **Sample Training Visualization**​  
 ![3 models testing result](./src/strategy_comparison.png)  
 
-### Brief explanatio
+### Brief explanation
 Through this simulation, we aimed to regulate network congestion rates towards the target level (0.5). Our observations include:
 
 1. ​**Congestion Target Achievement**​ (Primary Metric)  
