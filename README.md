@@ -109,6 +109,7 @@ Navigate to the `src` directory and launch the dashboard:
 cd src
 streamlit run _4_dashboard.py
 ```
+Currently, our frontend is only adapted for rule-based pricing methods
 
 ## Code Contributions
 The project adopts a modular development approach with clear division of responsibilities:
